@@ -1,0 +1,35 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.pytest_cache/
+
+# Build outputs and generated icons
+build/
+dist/
+app.iconset/
+app.icns
+
+# Duplicate delivery outputs; keep one complete v1.0 archive
+*.exe
+*.dmg
+*.zip
+!测款神器-双系统交付版.zip
+测款神器-客户交付版/
+测款神器-双系统交付版/
+
+# Legacy spec with a garbled filename
+娴嬫绁炲櫒.spec
+
+# Historical full-desktop screenshots
+界面预览.png
+最终界面预览.png
+
+# Local configuration
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
